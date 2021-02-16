@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
+	"font_face": "Cascadia Code",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "ayu-dark.sublime-theme",
+	"ui_scale": 1.0,
+	"word_wrap": true
+}
