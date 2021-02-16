@@ -6,3 +6,4 @@ Host vm4
 	User user
 	HostName 178.250.157.194
 	IdentityFile C:\Users\User\.ssh\vm4
+	ServerAliveInterval 59
