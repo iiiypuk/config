@@ -1,16 +1,16 @@
 [filter "lfs"]
-        clean = git-lfs clean -- %f
-        smudge = git-lfs smudge -- %f
-        process = git-lfs filter-process
-        required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [user]
-        name = Alexander Popov
-        email = iiiypuk@iiiypuk.me
-        signingkey = 398FC73478D97286
+	name = Alexander Popov
+	email = iiiypuk@iiiypuk.me
+	signingkey = 398FC73478D97286
 [core]
-        eol = lf
-        autocrlf = input
+	eol = lf
+	autocrlf = input
 [commit]
-        gpgsign = true
+	gpgsign = true
 [gpg]
-        program = /usr/bin/gpg
+	program = /usr/bin/gpg
