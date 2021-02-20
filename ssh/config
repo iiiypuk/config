@@ -1,6 +1,6 @@
 Host github.com
 	User iiiypuk
-	IdentityFile /home/user/.ssh/guthub
+	IdentityFile /home/user/.ssh/github
 
 Host vm4
 	User user
