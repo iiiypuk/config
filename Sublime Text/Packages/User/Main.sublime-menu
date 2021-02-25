@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "_@",
+        "id": "me.iiiypuk",
+        "children":
+        [
+            {
+                "caption": "Open Recent",
+                "mnemonic": "R",
+                "children":
+                [
+                    { "command": "reopen_last_file", "caption": "Reopen Closed File" },
+                    { "caption": "-" },
+                    { "command": "open_recent_file", "args": {"index": 0 } },
+                    { "command": "open_recent_file", "args": {"index": 1 } },
+                    { "command": "open_recent_file", "args": {"index": 2 } },
+                    { "command": "open_recent_file", "args": {"index": 3 } },
+                    { "command": "open_recent_file", "args": {"index": 4 } },
+                    { "command": "open_recent_file", "args": {"index": 5 } },
+                    { "command": "open_recent_file", "args": {"index": 6 } },
+                    { "command": "open_recent_file", "args": {"index": 7 } },
+                    { "command": "open_recent_file", "args": {"index": 8 } },
+                    { "command": "open_recent_file", "args": {"index": 9 } },
+                    { "command": "open_recent_file", "args": {"index": 10 } },
+                    { "command": "open_recent_file", "args": {"index": 11 } },
+                    { "command": "open_recent_file", "args": {"index": 12 } },
+                    { "command": "open_recent_file", "args": {"index": 13 } },
+                    { "command": "open_recent_file", "args": {"index": 14 } },
+                    { "command": "open_recent_file", "args": {"index": 15 } },
+                    { "caption": "-" },
+                    { "command": "clear_recent_files", "caption": "Clear Items" }
+                ]
+            },
+        ]
+    },
+]
