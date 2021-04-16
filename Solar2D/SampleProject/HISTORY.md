@@ -1,6 +1,3 @@
-## 0.1.0 - [21/01/2021] - (not work)
-- 
-
 ## Legend
 - 🐛 - Bug
 - ✔️ - Fixed
@@ -8,3 +5,6 @@
 - ➕ - Added
 - ℹ️ - Information
 - ♻️ - Edited
+
+## 0.1.0 - [17/04/2021] - (not work)
+- 
