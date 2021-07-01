@@ -1,14 +1,17 @@
 {
-	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
+	"theme": "auto",
+	"ui_scale": 1.0,
 	"font_face": "Cascadia Code",
-	"font_size": 13,
+	"font_size": 14,
+	"show_encoding": true,
+	"draw_centered": false,
+	"word_wrap": false,
+	"remember_full_screen": false,
+	"show_line_endings": true,
+	"folder_exclude_patterns": ["node_modules"],
+	"file_exclude_patterns": ["package-lock.json"],
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
-	"show_encoding": true,
-	"show_line_endings": true,
-	"theme": "ayu-dark.sublime-theme",
-	"ui_scale": 1.0,
-	"word_wrap": true
 }
