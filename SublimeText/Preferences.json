@@ -1,17 +1,21 @@
 {
 	"theme": "auto",
 	"ui_scale": 1.0,
+	"bold_folder_labels": true,
 	"font_face": "Cascadia Code",
-	"font_size": 14,
+	"font_size": 13,
 	"show_encoding": true,
 	"draw_centered": false,
 	"word_wrap": false,
+	"always_show_minimap_viewport": true,
 	"remember_full_screen": false,
 	"show_line_endings": true,
+	"highlight_line": true,
 	"folder_exclude_patterns": ["node_modules"],
 	"file_exclude_patterns": ["package-lock.json"],
 	"ignored_packages":
 	[
 		"Vintage",
 	],
+	"color_scheme": "Mariana.sublime-color-scheme",
 }
