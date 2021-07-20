@@ -5,5 +5,9 @@ Host github.com
 Host kvm5
 	User alex
 	HostName 92.63.105.65
-	IdentityFile C:\Users\User\.ssh\kvm4
+	IdentityFile C:\Users\User\.ssh\kvm5
 	ServerAliveInterval 59
+
+Host iiiypuk.me
+	User gitea
+	IdentityFile /home/user/.ssh/gitea
