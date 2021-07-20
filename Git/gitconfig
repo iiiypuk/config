@@ -1,3 +1,8 @@
+[alias]
+	co = checkout
+	cm = commit
+	br = branch
+	st = status
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
