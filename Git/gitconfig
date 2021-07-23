@@ -15,6 +15,7 @@
 [core]
 	eol = lf
 	autocrlf = input
+	excludesFile = ~/.gitignore
 [commit]
 	gpgsign = true
 [gpg]

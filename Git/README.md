@@ -1,3 +1,18 @@
+## global .gitignore
+**Windows `cmd.exe`:**
+```cmd
+git config --global core.excludesFile "%USERPROFILE%\.gitignore"
+```
+**or PowerShell:**
+```powershell
+git config --global core.excludesFile "$Env:USERPROFILE\.gitignore"
+```
+
+**Linux:**
+```bash
+git config --global core.excludesFile '~/.gitignore'
+```
+
 ## git push remote all
 **Как отправлять исходники в несколько репозиториев одной командой:**
 
