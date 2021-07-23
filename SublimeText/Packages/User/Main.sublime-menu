@@ -5,6 +5,17 @@
         "children":
         [
             {
+                "caption": "Open ♥",
+                "command": "open_file", "args": { "file": "" },
+            },
+            {
+                "caption": "Open GPG",
+                "command": "open_file", "args": { "file": "" },
+            },
+            {
+                "caption": "-"
+            },
+            {
                 "caption": "Open Recent",
                 "mnemonic": "R",
                 "children":
