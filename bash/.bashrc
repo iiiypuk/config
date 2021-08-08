@@ -10,6 +10,9 @@ alias ls='ls --color=auto'
 alias df='df -h'
 alias du='du -h'
 
+alias tardir='tar -czf "../${PWD##*/}.tar.gz"' # tar.gz current dir
+alias pacman-orphaned='pacman -Rns $(pacman -Qtdq)' # delete orphaned packages (Arch Linux)
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
