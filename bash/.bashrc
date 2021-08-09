@@ -2,6 +2,9 @@
 [[ $- != *i* ]] && return
 
 source /usr/share/git/completion/git-completion.bash
+source $HOME/.config/bash-wakatime/bash-wakatime.sh
+
+export PATH="$PATH;/home/alex/.local/bin"
 
 ENDCOLOR="\e[m"
 PS1="\e[36m\h${ENDCOLOR} \e[35m\W${ENDCOLOR} \$> "
