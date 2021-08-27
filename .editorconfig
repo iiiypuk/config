@@ -1,6 +1,7 @@
 # EditorConfig is awesome: https://EditorConfig.org
 root = true
 
+# for all projects
 [*]
 indent_style = space
 indent_size = 4
@@ -9,25 +10,34 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+# Python
 [*.py]
 indent_style = space
 indent_size = 4
 
+# Crystal
 [*.cr]
 indent_style = space
 indent_size = 2
 
-[*.js]
-indent_style = space
-indent_size = 2
-
+# Web Sites
 [{*.html,*.css,*.json}]
 indent_style = tab
 indent_size = 4
 
+[humans.txt]
+indent_style = tab
+indent_size = 2
+
+# Other
 [Makefile]
 indent_style = tab
 indent_size = 4
+
+# JavaScript
+[*.js]
+indent_style = space
+indent_size = 2
 
 [package.json]
 indent_style = space
