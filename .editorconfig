@@ -34,6 +34,10 @@ indent_size = 2
 indent_style = tab
 indent_size = 4
 
+[.gitconfig]
+indent_style = tab
+indent_size = 4
+
 # JavaScript
 [*.js]
 indent_style = space
@@ -42,3 +46,12 @@ indent_size = 2
 [package.json]
 indent_style = space
 indent_size = 2
+
+# Ignore paths for this project
+[{Solar2D/**,ssh/config}]
+charset = unset
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+indent_style = unset
+indent_size = unset

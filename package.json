@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "editorconfig-checker": "editorconfig-checker -exclude node_modules"
+  },
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2"
+  }
+}
