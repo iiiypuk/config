@@ -7,7 +7,7 @@ source $HOME/.config/bash-wakatime/bash-wakatime.sh
 
 # PS1
 ENDCOLOR="\e[m"
-PS1="\e[36m\h${ENDCOLOR} \e[35m\W${ENDCOLOR} \$> "
+# PS1="\e[36m\h${ENDCOLOR} \e[35m\W${ENDCOLOR} \$> "
 
 # ALIASES
 alias ls='ls --color=auto'
@@ -22,3 +22,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 export PATH="$PATH;node_modules/.bin"
+
+# StarShip
+eval "$(starship init bash)"
