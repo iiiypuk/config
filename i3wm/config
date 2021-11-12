@@ -1,6 +1,15 @@
 set $mod Mod4
 
+bar {
+  position top
+  font pango:Cascadia Code 10
+  status_command i3status
+}
+
 exec --no-startup-id $HOME/.fehbg
+exec "setxkbmap -layout us,ru"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
+
 gaps inner 10
 
 font pango:Cascadia Code 10
@@ -100,9 +109,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bar {
-        status_command i3status
-}
-
 default_border pixel 6
 default_floating_border pixel 6
+
